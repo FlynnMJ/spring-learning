@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>eureka</name>
+    <name>springcloud-learning</name>
     <description>Demo project for Spring cloud learning</description>
 
 
@@ -38,6 +38,7 @@
         <module>eureka-server</module>
         <module>ribbon-eureka-client</module>
         <module>feign-eureka-client</module>
+        <module>zuul-eureka-api</module>
     </modules>
 
 </project>
